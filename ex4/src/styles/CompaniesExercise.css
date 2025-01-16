@@ -1,0 +1,21 @@
+.companies-exercise {
+    padding: 20px;
+    border: 2px solid #2196f3;
+    border-radius: 8px;
+    margin: 10px 0;
+    background-color: #e3f2fd;
+}
+
+.companies-exercise h2 {
+    color: #1976d2;
+}
+
+.companies-exercise ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.companies-exercise li {
+    font-size: 16px;
+    margin: 5px 0;
+}

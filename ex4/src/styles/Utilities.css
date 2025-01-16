@@ -1,0 +1,16 @@
+.utilities {
+    padding: 20px;
+    border: 2px solid #9c27b0;
+    border-radius: 8px;
+    margin: 10px 0;
+    background-color: #f3e5f5;
+}
+
+.utilities h2 {
+    color: #7b1fa2;
+}
+
+.utilities p {
+    font-size: 16px;
+    margin: 5px 0;
+}
