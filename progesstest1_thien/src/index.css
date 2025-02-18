@@ -1,0 +1,56 @@
+
+.navbar {
+  background-color: #f06d0e !important;
+}
+
+footer {
+  background-color: #f06d0e !important;
+  color: white;
+}
+
+button {
+  background-color: #f6a30e !important;
+  border: none;
+}
+
+button:hover {
+  background-color: #e65c00 !important;
+}
+
+
+
+.navbar .nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+
+
+.navbar .nav-link:hover {
+  color: #ffdd99 !important;
+}
+
+
+.navbar .dropdown-menu {
+  background-color: #f06d0e !important;
+}
+
+.navbar .dropdown-item {
+  color: white !important;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #e65c00 !important;
+}
+
+
+.navbar .form-control {
+  width: 180px;
+  border-radius: 20px;
+}
+.banner img {
+  height: 700px; /* Điều chỉnh kích thước banner */
+  object-fit: cover;
+}
+.navbar-light {
+  background-color: #f6c47b !important; /* Cam nhạt */
+}

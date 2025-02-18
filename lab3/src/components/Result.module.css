@@ -1,0 +1,25 @@
+.resultContainer {
+    text-align: center;
+  }
+  
+  .score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .retryButton {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .retryButton:hover {
+    background-color: #a71d2a;
+  }
+  
