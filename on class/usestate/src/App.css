@@ -1,0 +1,9 @@
+/* App.css */
+button:hover {
+  background-color: #218838;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #6c757d;
+}

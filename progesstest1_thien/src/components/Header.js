@@ -28,7 +28,7 @@ const Header = () => {
 
               
               <NavDropdown title="🎓 Thông tin khác" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#">Giảng viên</NavDropdown.Item>
+                <NavDropdown.Item href="#">Giảng viên</NavDropdown.Item>    
                 <NavDropdown.Item href="#">Thời khóa biểu</NavDropdown.Item>
                 <NavDropdown.Item href="#">Liên hệ</NavDropdown.Item>
               </NavDropdown>

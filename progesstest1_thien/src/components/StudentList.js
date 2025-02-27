@@ -6,7 +6,8 @@ const students = [
   { id: "DE160182", name: "Nguyễn Hữu Quốc Khánh", location: "Đà Nẵng", image: "./images/stu1.png" },
   { id: "DE160377", name: "Choy Vĩnh Thiện", location: "Quảng Nam", image: "./images/stu2.png" },
   { id: "DE160547", name: "Đỗ Nguyễn Phúc", location: "Quảng Nam", image: "./images/stu3.png" },
-  { id: "DE170049", name: "Lê Hoàng Minh", location: "Đà Nẵng", image: "./images/stu4.png" }
+  { id: "DE170049", name: "Lê Hoàng Minh", location: "Đà Nẵng", image: "./images/stu4.png" },
+  { id: "DE170045", name: "Lê Hoàng Minh", location: "Đà Nẵng", image: "./images/stu4.png" }
 ];
 
 const StudentList = () => {
