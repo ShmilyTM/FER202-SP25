@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Container, Card, Button, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// Dữ liệu câu hỏi
 export const quizData = [
   {
     question: "What is ReactJS?",
@@ -30,7 +29,7 @@ const Quiz = () => {
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
 
-  // Xử lý khi người dùng chọn câu trả lời
+
   const handleAnswerSelect = (answer) => {
     setUserAnswers((prev) => ({
       ...prev,
@@ -38,7 +37,7 @@ const Quiz = () => {
     }));
   };
 
-  // Chuyển sang câu hỏi tiếp theo
+
   const handleNextQuestion = () => {
     if (currentQuestion < quizData.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
@@ -48,7 +47,7 @@ const Quiz = () => {
     }
   };
 
-  // Kiểm tra kết quả
+ 
   const checkAnswers = () => {
     let newScore = 0;
     quizData.forEach((item) => {
@@ -61,7 +60,7 @@ const Quiz = () => {
 
   return (
     <Container className="mt-4">
-      {/* Logo */}
+    
       <div className="text-center mb-4">
         <img
           src="Logo_Trường_Đại_học_FPT.svg.png"
