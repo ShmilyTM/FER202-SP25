@@ -1,0 +1,12 @@
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-height: 180px;
+    object-fit: contain;
+}
