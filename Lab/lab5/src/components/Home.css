@@ -1,0 +1,120 @@
+
+  .image-section {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .banner-img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .food-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: 2px solid #e74c3c;
+    padding: 5px;
+  }
+  
+  .news-title {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .news-card {
+    margin-bottom: 20px;
+  }
+  
+  .news-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .news-link {
+    color: blue;
+    text-decoration: underline;
+  }
+  .quiz-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .quiz-question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .quiz-option {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #007bff;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .quiz-option:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  .selected {
+    background: #007bff;
+    color: white;
+  }
+  
+  .next-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .next-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .next-button:hover:not(:disabled) {
+    background: #218838;
+  }
+  
+  .quiz-score {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .restart-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .restart-button:hover {
+    background: #c82333;
+  }
